@@ -6,7 +6,7 @@ import os
 
 def main():
 
-    load_dotenv("devcontainer.env")
+    load_dotenv(".env")
     WEATHER_API_TOKEN = os.getenv("WEATHER_API_TOKEN") # https://www.weatherapi.com/
 
     while True:
